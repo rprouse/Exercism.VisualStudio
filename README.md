@@ -2,6 +2,8 @@
 
 This is a Visual Studio template to work on the problems from [exercism.io](http://exercism.io) in as many languages as Visual Studio supports.
 
+![Solution Explorer](https://raw.githubusercontent.com/rprouse/Exercism.VisualStudio/master/images/SolutionExplorer.png)
+
 [exercism.io](http://exercism.io) is a series of programming exercises in multiple languages in which you are given a problem and a series of unit tests to verify your solution to the problem. Once you have solved the problem, you submit your answer to [exercism.io](http://exercism.io) and it is reviewed by your peers. It is an excellent practice in Test Driven Development and a great opportunity to write code that solves a problem as simply as possible while keeping it readable and expressive.
 
 So far, there are exercises available in available in Clojure, CoffeeScript, C++, C#, Elixir, Erlang, F#, Go, Haskell, JavaScript, Lua, Objective-C, OCaml, Perl 5, Python, Ruby, Scala, and Swift. This template allows you to work in C#, F#, Python, JavaScript and CoffeeScript.
@@ -16,11 +18,15 @@ To use this template,
 6. [Fetch your first exercise](http://help.exercism.io/fetching-exercises.html) `exercism fetch csharp`
 7. Open the Exercism solution in Visual Studio
 8. Expand the project that you fetched the exercise for
-9. Click on **Show All Files** in Solution Explorer
+9. Click on **Show All Files** in Solution Explorer (See below)
 10. The exercise you just fetched will appear greyed out. Right click on the folder and **Include In Project**
 11. Get coding...
 
-The following are language specific setup and hints. If you are using Visual Studio Express, none of the extensions I mention will work, but you should be able to run all of the tests at the command line.
+![Add files](https://raw.githubusercontent.com/rprouse/Exercism.VisualStudio/master/images/AddFiles.png)
+
+The following are language specific setup and hints. If you are using Visual Studio Express, none of the extensions I mention will work, but you should be able to run all of the tests at the command line. With the extensions, you can run the tests for most languages from right within Visual Studio.
+
+![Test Explorer](https://raw.githubusercontent.com/rprouse/Exercism.VisualStudio/master/images/TestExplorer.png)
 
 ## C# ##
 
