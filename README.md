@@ -38,6 +38,8 @@ If you are using Visual Studio Express, install [NUnit 2.6.3](http://www.nunit.o
 
 By default, Visual Studio does not allow you to organize F# files by folder. This is a problem because Exercism fetches the exercises to sub-folders. To get around this, install the Visual [F# Power Tools extension](http://fsprojects.github.io/VisualFSharpPowerTools/) which enables folder organization and makes writing F# code much easier in Visual Studio.
 
+To add exercises for F#, it is different than the other projects. Right click on the project and select **F# Power Tools | New Folder**. Enter the name for the **existing** exercise folder. Next, right click on the folder and select **Add | Existing item...** and select the problem files in the folder. 
+
 Running the tests is the same as for C#.
 
 ## C++ ##
@@ -50,7 +52,9 @@ In order for the C++ project to compile, **you must** set the environment variab
 
 The C++ project includes all of the exercises in one project, so you can ignore the CMake instructions on Exercism.io. `BOOST_TEST_MAIN` is in `Exercism.cpp`, so **you must delete** the `#define BOOST_TEST_MAIN` line from every exercise that you fetch. 
 
-To run the tests within Visual Studio, I installed the [Boost Unit Test Adapter](https://visualstudiogallery.msdn.microsoft.com/5f4ae1bd-b769-410e-8238-fb30beda987f) extension. It is still a bit flaky, but it generally works. 
+To run the tests within Visual Studio, I installed the [Boost Unit Test Adapter](https://visualstudiogallery.msdn.microsoft.com/5f4ae1bd-b769-410e-8238-fb30beda987f) extension. It is still a bit flaky, but it generally works.
+
+You can also run the test from the command line by running the `Exercism.cpp.exe` that is built by the project.
 
 To keep things simple, I code the entire problem in the `.h` file and don't use a `.cpp` file. This makes submission to exercism easier. 
 
@@ -64,9 +68,7 @@ To run the tests, you can do so at the command line, or within Visual Studio.
 
 ## JavaScript and CoffeScript ##
 
-[Exercism JavaScript help.](http://help.exercism.io/getting-started-with-javascript.html) 
-
-[Exercism CoffeeScript help.](http://help.exercism.io/getting-started-with-coffeescript.html)
+Exercism [JavaScript help](http://help.exercism.io/getting-started-with-javascript.html) and [CoffeeScript help](http://help.exercism.io/getting-started-with-coffeescript.html).
 
 Follow the [instructions on Exercism.io](http://help.exercism.io/getting-started-with-javascript.html) to install `Node.js` and `jasmine-node`.
 
@@ -77,9 +79,11 @@ I have not got the unit tests working in Visual Studio yet. I have been trying t
 Suggestions or pull requests for this would be welcome. For now, you can run the unit tests from a node.js command line using the batch file in the project.
 
 ```
-C:\Src\exercises\javascript>test bob\bob_test.spec.js
+C:\Src\exercises\javascript>test example\bob_test.spec.js
 .................
 
 Finished in 0.02 seconds
 17 tests, 17 assertions, 0 failures, 0 skipped
 ```
+
+If you do not see any output from running the tests, you are likely not in a Node.js command prompt.
