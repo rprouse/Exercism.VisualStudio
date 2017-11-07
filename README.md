@@ -11,11 +11,11 @@ So far, there are exercises available in available in Clojure, CoffeeScript, C++
 To use this template,
 
 1. Copy the template into your exercises directory, for example `C:\src\exercises`
-2. Install the [Exercism CLI](http://help.exercism.io/installing-the-cli.html)
+2. Install the [Exercism CLI](http://exercism.io/clients/cli)
 3. Open a command prompt to your exercise directory 
 4. Add your API key to exercism `exercism configure --key=YOUR_API_KEY`
 5. Configure your source directory in exercism `exercism configure --dir=C:\src\exercises`
-6. [Fetch your first exercise](http://help.exercism.io/fetching-exercises.html) `exercism fetch csharp`
+6. [Fetch your first exercise](http://exercism.io/how-it-works) `exercism fetch csharp`
 7. Open the Exercism solution in Visual Studio
 8. Expand the project that you fetched the exercise for
 9. Click on **Show All Files** in Solution Explorer (See below)
@@ -30,7 +30,7 @@ The following are language specific setup and hints. If you are using Visual Stu
 
 ## C# ##
 
-[Exercism C# Help.](http://help.exercism.io/getting-started-with-csharp.html)
+[Exercism C# Help.](https://web.archive.org/web/20151001063248/http://help.exercism.io/getting-started-with-csharp.html)
 
 The NUnit NuGet package is included in the project, so you should be off and running.
 
@@ -40,7 +40,7 @@ If you are using Visual Studio Express, install [NUnit 2.6.3](http://www.nunit.o
 
 ## F# ##
 
-[Exercism F# help.](http://help.exercism.io/getting-started-with-fsharp.html)
+[Exercism F# help.](https://web.archive.org/web/20151109211742/http://help.exercism.io:80/getting-started-with-fsharp.html)
 
 By default, Visual Studio does not allow you to organize F# files by folder. This is a problem because Exercism fetches the exercises to sub-folders. To get around this, install the Visual [F# Power Tools extension](http://fsprojects.github.io/VisualFSharpPowerTools/) which enables folder organization and makes writing F# code much easier in Visual Studio.
 
@@ -50,7 +50,7 @@ Running the tests is the same as for C#.
 
 ## C++ ##
 
-[Exercism C++ help.](http://help.exercism.io/getting-started-with-cpp.html)
+[Exercism C++ help.](https://web.archive.org/web/20151001130952/http://help.exercism.io/getting-started-with-cpp.html)
 
 Follow the instructions on Exercism.io to install the Boost library. They call for version 1.55. I am using 1.56 and it works fine. 
 
@@ -66,7 +66,7 @@ To keep things simple, I code the entire problem in the `.h` file and don't use 
 
 ## Python ##
 
-[Exercism Python help.](http://help.exercism.io/getting-started-with-python.html)
+[Exercism Python help.](https://web.archive.org/web/20151021061310/http://help.exercism.io:80/getting-started-with-python.html)
 
 For Visual Studio, you need to install [Python Tools for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/5f4ae1bd-b769-410e-8238-fb30beda987f). As of version 2.1, you can use Express versions of Visual Studio. Just following their [installation instructions](https://pytools.codeplex.com/wikipage?title=PTVS%20Installation) to install it and a Python interpreter of your choice.
 
@@ -74,9 +74,9 @@ To run the tests, you can do so at the command line, or within Visual Studio.
 
 ## JavaScript and CoffeScript ##
 
-Exercism [JavaScript help](http://help.exercism.io/getting-started-with-javascript.html) and [CoffeeScript help](http://help.exercism.io/getting-started-with-coffeescript.html).
+Exercism [JavaScript help](https://web.archive.org/web/20151121153800/http://help.exercism.io:80/getting-started-with-javascript.html) and [CoffeeScript help](https://web.archive.org/web/20151001064655/http://help.exercism.io/getting-started-with-coffeescript.html).
 
-Follow the [instructions on Exercism.io](http://help.exercism.io/getting-started-with-javascript.html) to install `Node.js` and `jasmine-node`.
+Follow the [instructions on Exercism.io](https://web.archive.org/web/20151121153800/http://help.exercism.io:80/getting-started-with-javascript.html) to install `Node.js` and `jasmine-node`.
 
 To work with CoffeeScript in Visual Studio, you should install the [Web Essentials](http://vswebessentials.com/) extension. It will also make working with Javascript much easier.
 
